@@ -8,8 +8,8 @@ Each column must contain the digits 1-9 without repetition.
 Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
 
 
-class Solution {
-public:
+    class Solution 
+    public:
     bool isValidSudoku(vector<vector<char>>& board) {
         bool row[9][9] = {false};
         bool col[9][9] = {false};
